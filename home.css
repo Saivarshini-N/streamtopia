@@ -1,0 +1,79 @@
+/* Apply a CSS reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a sans-serif font for the entire document */
+  body {
+    font-family: sans-serif;
+  }
+  
+  /* Style the header with a dark background, white text, and a flex layout */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style the navigation links with a bit of spacing and white text */
+  nav ul {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Add an underline effect on hover for the navigation links */
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the main section with a centered max-width and some padding */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Add some spacing between the main sections */
+  section {
+    margin-bottom: 40px;
+  }
+  
+  /* Style the headings */
+  h2 {
+    margin-top: 0;
+    font-size: 32px;
+  }
+  
+  h3 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  /* Add some spacing above the audio element */
+  audio {
+    margin-top: 20px;
+  }
+  
+  /* Style the footer with a dark background and white text */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Set a max-width for the images in the previous episodes list */
+  ul img {
+    max-width: 50%;
+  }
+  
